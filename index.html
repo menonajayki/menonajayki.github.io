@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>K I Ajay Menon - Federated Learning Research</title>
+  <meta name="title" content="K I Ajay Menon - Researcher in Federated Learning">
+  <meta name="description" content="K I Ajay Menon - PhD Candidate at Technical University of Munich × DENSO. Research in Federated Learning, Multi-Agent Systems, Digital Twins.">
+  <meta name="keywords" content="Ajay Menon, K I Ajay Menon, kiajaymenon, federated learning, researcher, PhD, TUM, DENSO, digital twins, edge AI">
+  <meta name="author" content="K I Ajay Menon">
+  <link rel="canonical" href="https://menonajayki.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="K I Ajay Menon - Federated Learning Research">
+  <meta property="og:description" content="PhD candidate at TUM and DENSO.">
+  <meta property="og:url" content="https://menonajayki.github.io/">
+  <meta property="og:image" content="https://menonajayki.github.io/assets/photo.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#f6f7fb;
+      --surface:#ffffff;
+      --ink:#111213;
+      --muted:#6b6f76;
+      --line:#e9ebf0;
+      --link:#0f0f10;
+      --shadow:0 8px 28px rgba(15,16,18,.06);
+      --radius:16px;
+      --radius-sm:12px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    html{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}
+    body{
+      margin:0;
+      font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+      color:var(--ink);
+      background:var(--bg);
+      line-height:1.65;
+      font-weight:400;
+      font-size:16px;
+      letter-spacing:.01em;
+    }
+
+    a{color:var(--link); text-decoration:none}
+    a:hover{text-decoration:underline}
+    a:focus-visible, button:focus-visible {outline:2px solid #111; outline-offset:2px; border-radius:8px}
+
+    .container{
+      max-width:1100px;
+      margin:0 auto;
+      padding:56px 20px 72px;
+      display:grid;
+      grid-template-columns:300px 1fr;
+      gap:44px;
+    }
+    @media (max-width: 900px){
+      .container{grid-template-columns:1fr; padding-top:32px}
+    }
+
+    .card{
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:26px;
+    }
+
+    .sidebar{text-align:center; align-self:start}
+    .avatar{
+      width:100%;
+      border-radius:14px;
+      margin-bottom:18px;
+      display:block;
+    }
+    .name{
+      font-size:28px;
+      font-weight:600;
+      letter-spacing:.005em;
+      margin-bottom:6px;
+    }
+    .role, .location{
+      color:var(--muted);
+      font-size:14.5px;
+      margin-bottom:4px;
+    }
+    .location{margin-bottom:18px}
+
+    .chips{
+      display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin-bottom:20px;
+    }
+    .chip{
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:6px 12px;
+      font-size:12.5px;
+      color:var(--muted);
+      background:#fafbfe;
+    }
+
+    .links{display:grid; gap:10px; margin-bottom:18px}
+    .links a{
+      padding:10px 14px;
+      border:1px solid var(--line);
+      border-radius:10px;
+      background:#fafbfe;
+      font-size:14px;
+    }
+    .links a:hover{background:#f2f5fb}
+
+    .btn{
+      display:inline-block;
+      padding:11px 16px;
+      border-radius:10px;
+      font-weight:500;
+      font-size:14px;
+      border:1px solid var(--line);
+      transition:transform .04s ease;
+    }
+    .btn:active{transform:translateY(1px)}
+    .btn.primary{background:#111; color:#fff; border-color:#111}
+    .btn.ghost{background:transparent; color:var(--ink)}
+
+    .main{display:grid; gap:28px}
+
+    h2{
+      font-size:18px;
+      font-weight:600;
+      margin:0 0 14px;
+      letter-spacing:.2px;
+    }
+    p{margin:0 0 12px; font-size:15.5px}
+
+    ul{list-style:none; padding:0; margin:0}
+    li{margin:0 0 10px; font-size:15.5px}
+
+    .news li{
+      border-left:3px solid var(--line);
+      padding-left:12px;
+    }
+    .news time{
+      color:var(--muted);
+      font-size:13px;
+      margin-right:6px;
+      white-space:nowrap;
+    }
+
+    .pub{
+      padding:16px;
+      border:1px solid var(--line);
+      border-radius:var(--radius-sm);
+      margin-bottom:12px;
+      background:#fbfcff;
+    }
+    .pub b{font-weight:600}
+    .pub .tag{font-size:12.5px; color:var(--muted); margin-left:8px}
+
+    footer{
+      text-align:center;
+      font-size:13px;
+      color:var(--muted);
+      margin-top:4px;
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"K I Ajay Menon",
+    "url":"https://menonajayki.github.io/",
+    "image":"https://menonajayki.github.io/assets/photo.jpg",
+    "jobTitle":"Doctoral Researcher",
+    "affiliation":{"@type":"Organization","name":"Technical University of Munich"},
+    "sameAs":[
+      "https://scholar.google.com/citations?hl=en&user=DcaBiNcAAAAJ",
+      "https://github.com/menonajayki",
+      "https://www.linkedin.com/in/kiajaymenon"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <aside class="card sidebar" aria-label="Profile">
+      <img class="avatar" src="assets/photo.jpg" alt="Portrait of K I Ajay Menon" loading="lazy" />
+      <div class="name">K I Ajay Menon</div>
+      <div class="role">Doctoral Researcher</div>
+      <div class="location">Germany</div>
+
+      <div class="chips">
+        <span class="chip">Federated Learning</span>
+        <span class="chip">Digital Twins</span>
+        <span class="chip">Edge Optimization</span>
+      </div>
+
+      <div class="links">
+        <a href="mailto:menonajayki@gmail.com">Email</a>
+        <a href="https://github.com/menonajayki">GitHub</a>
+        <a href="https://scholar.google.com/citations?hl=en&user=DcaBiNcAAAAJ">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/kiajaymenon">LinkedIn</a>
+      </div>
+
+      <a class="btn primary" href="assets/CV.pdf" target="_blank" rel="noopener">Download CV</a>
+    </aside>
+
+    <main class="main" aria-label="Content">
+      <section class="card" id="about">
+        <h2>About</h2>
+        <p>I am a PhD candidate at DENSO and the Technical University of Munich, working on distributed AI for automotive systems. My research focuses on federated learning and personalization of machine learning models.</p>
+        <p>Previously, I contributed to industrial research and development at ARENA2036, ZEISS, Bosch, and Deloitte.</p>
+      </section>
+
+      <section class="card" id="publications">
+        <h2>Publications</h2>
+        <div class="pub"><b>Personalized Federated FlowChain for Human Trajectory Prediction</b><span class="tag">FLTA 2025 (accepted)</span></div>
+        <div class="pub"><b>Integration of Asset Administration Shells & Federated Learning in Mobile Assets</b><span class="tag">IFAC IMS 2025 (accepted)</span></div>
+        <div class="pub"><b>Data-Sovereign Architecture for Quality-as-a-Service in Industrial Supply Chains</b><span class="tag">CIRP 2025</span></div>
+        <div class="pub"><b>RF Sensor for Food Adulteration Detection</b><span class="tag">PIERL 2020</span></div>
+      </section>
+
+      <section class="card" id="news">
+        <h2>News</h2>
+        <ul class="news">
+          <li><time>Aug 2025</time>Paper accepted at FLTA: <i>Personalized Federated FlowChain for Human Trajectory Prediction</i></li>
+          <li><time>Apr 2025</time>Started PhD with TUM & DENSO on Federated Learning</li>
+          <li><time>Oct 2024</time>Master Thesis accepted at IFAC IMS 2025</li>
+          <li><time>Sep 2024</time>Work in ARENA2036 accepted at CIRP 2025</li>
+          <li><time>Jun 2024</time>Started Master Thesis with University of Stuttgart and ZEISS</li>
+          <li><time>Dec 2023</time>Joined ARENA2036 as Research Assistant</li>
+          <li><time>Feb 2023</time>Joined Bosch eBike Systems as Working Student</li>
+          <li><time>Oct 2022</time>Started Masters at University of Stuttgart</li>
+          <li><time>Dec 2020</time>Bachelor Thesis published at PIERL 2020</li>
+          <li><time>Nov 2020</time>Joined Deloitte as Business Technology Analyst</li>
+          <li><time>Aug 2016</time>Started Bachelors at Model Engineering College</li>
+        </ul>
+      </section>
+
+      <section class="card" id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:menonajayki@gmail.com">menonajayki@gmail.com</a></p>
+        <p><a href="https://scholar.google.com/citations?hl=en&user=DcaBiNcAAAAJ">Google Scholar</a> · <a href="https://github.com/menonajayki">GitHub</a> · <a href="https://www.linkedin.com/in/kiajaymenon">LinkedIn</a></p>
+      </section>
+
+      <footer>© 2025 K I Ajay Menon</footer>
+    </main>
+  </div>
+</body>
+</html>
